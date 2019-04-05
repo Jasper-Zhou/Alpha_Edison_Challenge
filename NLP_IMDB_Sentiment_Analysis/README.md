@@ -1,7 +1,7 @@
 # NLP: IMDB Sentiment Analysis Description
 
 ## Achievement
-Accuracy of the best model on test dataset is 91.6%.
+Accuracy of the best model on test set is 91.6%.
 
 ## Analysis
 
