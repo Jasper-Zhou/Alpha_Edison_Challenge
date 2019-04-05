@@ -57,4 +57,4 @@ Here, grid search was used to select promising models base on the f-score of 5-f
 
 Experiment table is attached as follow:
 
-[image]https://github.com/JianhengHou/Alpha_Edison_Challenge/blob/master/NLP_IMDB_Sentiment_Analysis/Result.png）
+![image](https://github.com/JianhengHou/Alpha_Edison_Challenge/blob/master/NLP_IMDB_Sentiment_Analysis/Result.png)
