@@ -17,6 +17,7 @@ Rules are used to process the text as follow:
     Lemmatize verbs
     Replace all integer into the word “digit” 
     Remove stop words except for “wh-” words
+    calculate the sentiment weight based on corpus for each word 
 
 ## Word Embedding
 Both of TF-IDF and FastText word embeddings on the whole corpus cleaned before were trained and used them as the input of the models later.
@@ -46,11 +47,15 @@ Here, grid search was used to select promising models base on the f-score of 5-f
 
 ## Evaluation
 
-Traditional model winner:  SVM   (acc: 0.9, training time: 1h)
+### Traditional model winner
 
-Deep Learning model winner:  Bi-LSTM+CNN+Attention   (acc: 0.916, training time: 4h)
+    SVM   (acc: 0.9, training time: 1h)
 
-Experiment result is attached as follow:
+### Deep Learning model winner
+
+    Bi-LSTM+CNN+Attention (so far)  (acc: 0.916, training time: 4h)
+
+Experiment table is attached as follow:
 
 
 

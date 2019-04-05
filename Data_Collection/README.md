@@ -2,13 +2,17 @@
 
 ## Analysis
 	
-After look through the target pages, I notice that there are three layers of web pages need to be crawled, i.e home page, discussion page, and reply page (could be that there are multiple-reply pages for the same discussion).
+After looking through the target pages, I noticed that there were three layers of web pages need to be crawled, i.e home page, discussion page, and reply page (could be that there are multiple-reply pages for the same discussion).
 
 ## Procedure
 
-Crawling: Build on Scrapy scripts to iteratively request discussion pages for each home page, and crawl required data on the discussion page. Moreover, I also repeatedly crawl discussion information if that discussion includes multi-page replies. All data as entries with JSON line format were written into a ‘.txt’ file. 
+### Crawling
+
+Scrapy scripts were built to iteratively request discussion pages for each home page, and crawl required data on the discussion page. Moreover, I also repeatedly crawled discussion information if that discussion includes multi-page replies. All data as entries with JSON line format were written into a ‘.txt’ file. 
 	
-Post-processing: Replies should be merged into the same entry, if the same post includes multi-page replies. Considering scalability of the code, I used pyspark to merge replies into its corresponding entry.
+### Post-processing
+
+Replies should be merged into the same entry, if the same post includes multi-page replies. Considering scalability of the code, I used pyspark to merge replies into its corresponding entry.
 
 ## Data Structure
 
