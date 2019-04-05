@@ -15,7 +15,7 @@ The datetime of the post/reply in the form 2019-03-20T18:17+00:00
  
  
  
-## NLP:
+## NLP: Sentiment Analysis
  
 Download the data set at http://ai.stanford.edu/~amaas/data/sentiment/.  Using the 25K labeled training data, created a supervised sentiment classifier to classify the reviews as positive or negative.  Test on the data under the test directory and describe the level of accuracy you were able to achieve.
 
