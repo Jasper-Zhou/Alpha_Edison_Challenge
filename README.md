@@ -7,9 +7,9 @@ Data collection:
 
 On the website https://patient.info/forums/discuss/browse/abdominal-disorders-3321, collect/scrape data on the most recent 20 posts and replies.  Design your preferred data structure to contain data on both post and replies, which must include:
 
-·         Post or reply text
-·         The Writer of the post or the Responder to Writer of a reply
-·         The datetime of the post/reply in the form 2019-03-20T18:17+00:00
+Post or reply text
+The Writer of the post or the Responder to Writer of a reply
+The datetime of the post/reply in the form 2019-03-20T18:17+00:00
  
  
 NLP:
