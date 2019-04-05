@@ -2,7 +2,7 @@
 
 ## Analysis
 	
-After look through the target pages, I notice that there are three layers of web pages need to be crawled, i.e home page, discussion page, and reply page (could be that there are multiple reply pages for the same discussion).
+After look through the target pages, I notice that there are three layers of web pages need to be crawled, i.e home page, discussion page, and reply page (could be that there are multiple-reply pages for the same discussion).
 
 ## Procedure
 
