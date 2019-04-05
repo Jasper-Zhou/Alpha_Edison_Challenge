@@ -1,8 +1,11 @@
 # NLP: IMDB Sentiment Analysis Description
 
+## Achievement
+Accuracy of the best model on test set is 91.6%.
+
 ## Analysis
 
-The corpus has less noises compared to some other datasets, and I believe a good quality of the data is the first step to do modeling. So I spent more time on text cleaning. Then try four or five typical traditional machine learning models and three deep learning models.
+The corpus has less noises compared to some other datasets, and I believe a good quality of the data is the first step to do modeling. So I spent more time on text cleaning and then tried on at most four typical traditional machine learning models and built three deep learning models.
 
 ## Text Preprocessing
 
