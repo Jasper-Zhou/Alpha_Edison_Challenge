@@ -17,6 +17,7 @@ Rules are used to process the text as follow:
     Lemmatize verbs
     Replace all integer into the word “digit” 
     Remove stop words except for “wh-” words
+    calculate the sentiment weight based on corpus for each word 
 
 ## Word Embedding
 Both of TF-IDF and FastText word embeddings on the whole corpus cleaned before were trained and used them as the input of the models later.
