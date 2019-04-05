@@ -46,11 +46,15 @@ Here, grid search was used to select promising models base on the f-score of 5-f
 
 ## Evaluation
 
-Traditional model winner:  SVM   (acc: 0.9, training time: 1h)
+### Traditional model winner
 
-Deep Learning model winner:  Bi-LSTM+CNN+Attention   (acc: 0.916, training time: 4h)
+    SVM   (acc: 0.9, training time: 1h)
 
-Experiment result is attached as follow:
+### Deep Learning model winner
+
+    Bi-LSTM+CNN+Attention (so far)  (acc: 0.916, training time: 4h)
+
+Experiment table is attached as follow:
 
 
 
